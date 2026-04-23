@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo"> Muhammad <span>Taha</span> </div>
+        <div class="nav-links">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <i style="font-size:24px" onclick="toggleMenu()" class="fa">&#xf0c9;</i>
+    </nav>
+
+    <section class="intro" id="home">
+        <div class="me">
+            <h1>Hi, I'm <span>Muhammad Taha</span><br>Software Engineering Student</h1>
+            <p> I love turning ideas into code.</p>
+            <br>
+            <a href="#projects" >Check out my projects below <i style='font-size:15px' class='fas'>&#xf063;</i></a>
+        </div>
+
+        <div class="profile">
+            <img src="mypic.jpg" alt="My picture">
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    <section class="skill-section" id="skills">
+        <div class="heading">
+            <h1>SKILLS</h1>
+        </div>
+
+        <div class="skills-container">
+            <div class="skill">JAVA(OOP)
+                <img src="java.png" alt="Icon" id="icon">
+            </div>
+            <div class="skill">WEB Frontend Development
+                <img src="html.png" alt="Icon"><img src="css.png" alt="Icon">
+            </div>
+            <div class="skill">JavaScript
+                <img src="js.png" alt="Icon">
+            </div>
+            <div class="skill">Graphic Designing
+                <img src="graphic-designing.jpg" alt="Icon">
+            </div>
+        </div>
+    </section>
+
+    <section class="Project-section" id="projects">
+        <div class="heading">
+            <h1>PROJECTS</h1>
+        </div>
+
+        <div class="projects-container">
+            <div class="p-card">
+                <img src="SMS.jpg" alt="project image">
+                <h3>School Management System</h3>
+                <p id="sub-head-1">Built on JAVA(OOP)</p>
+                <p>A clean GUI based Management system that manages the <br> data of teacher and students allowing adding , deleting , 
+                    update , <br> and storing the data using file handling with proper exceptions handling</p>
+                <a href="p-link"><i class="fa-brands fa-linkedin"></i> Watch demo </a>
+            </div>
+
+            <div class="p-card calculator">
+                <img src="calculator-p.jpg" alt="project image">
+                <h3>Glass Morphism Calculator</h3>
+                <p id="sub-head">Built using HTML/CSS/JavaScript</p>
+                <p>A glassmorphism-style calculator with a sleek transparent UI and fully functional arithmetic operations for an enhanced user experience. design with powerful functionality</p>
+                <a href="p-link"><i class="fa-brands fa-linkedin"></i> Watch demo </a>
+            </div>
+
+            <div class="p-card">
+                <img src="tic-tac-toe.jpg" alt="project image">
+                <h3>School Management System</h3>
+                <p id="sub-head">Built using HTML/CSS/JavaScript</p>
+                <p>A classic Tic Tac Toe game using my programming skills, where<br>I implemented the  complete game logic, including player turns, win and draw conditions. To make it engaging, I designed a simple yet interactive user interface that allows smooth player interaction. </p>
+                <a href="p-link"><i class="fa-brands fa-linkedin"></i> Watch demo </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="heading">
+            <h1>CONTACTS</h1>
+        </div>
+
+        <div class="contacts">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,2 @@
+1001,Taha,Primary,Maths,30000.0,Unpaid
+1002,Talha,Primary,Science,30000.0,Unpaid
